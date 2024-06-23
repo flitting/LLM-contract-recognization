@@ -6,11 +6,12 @@ import os
 from PIL import Image
 import math
 
-API_KEY1 = 'L5g4SFgrJ5roC1wrcYDmIYWC'
-SECRET_KEY1 = 'KeB0hEsckUjpF2q2XwB0E8OuCYgDSd1K'
-API_KEY2 = 'fqmaM5zdzU27wNcLVtYpC71r'
-SECRET_KEY2 = 'r2L4hIIU5f3Suxq5xiJUTUHnoDpjIuDC'
-
+API_KEY1 = ''
+SECRET_KEY1 = ''
+# api from Baidu ocr 
+API_KEY2 = ''
+SECRET_KEY2 = ''
+# api from Baidu LLM
 
 def get_access_token(api_key, secret_key):
     token_url = 'https://aip.baidubce.com/oauth/2.0/token'
